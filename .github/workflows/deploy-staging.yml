@@ -91,5 +91,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy web app container
-        uses: azure/webapps-deploy@v2
+        uses: azure/webapps-deploy@v3
 
